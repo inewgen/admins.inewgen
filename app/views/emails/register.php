@@ -12,7 +12,7 @@
                 </tr>
                 <tr>
                     <td align="left" style="color:#333;font-family:Thonburi,Tahoma;vertical-align:bottom">
-                        &nbsp;SiamiTs Website is Learning & Creative Society
+                        &nbsp;iNewGen Website is Learning & Creative Society
                     </td>
                 </tr>
             </tbody>
@@ -37,7 +37,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" style="font-size:12px;color:#272f32;line-height:5px;padding:10px 10px;float:right;" align="right">
-                    <strong>ทีมงาน SiamiTs.com</strong>
+                    <strong>ทีมงาน iNewGen.com</strong>
                     </td>
                 </tr>
                 <tr>
@@ -53,7 +53,7 @@
                                     <td style="font-size:12px;line-height:20px;font-family:Thonburi,Tahoma;color:#6d6e71;text-align:center">
                                         หากคุณมีปัญหาหรือข้อสงสัยเกี่ยวกับการใช้บริการ สามารถติดต่อได้ที่ 02-644-2390
                                         <br>หรืออีเมลติดต่อ support@siamits.com หรือ <a href="http://www.inewgen.com">www.inewgen.com</a>
-                                        <br>© 2015 SiamiTs - All Rights Reserved
+                                        <br>© 2015 iNewGen - All Rights Reserved
                                     </td>
                                 </tr>
                             </tbody>

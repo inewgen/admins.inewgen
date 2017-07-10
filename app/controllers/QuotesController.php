@@ -22,7 +22,7 @@ class QuotesController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Quotes');
+        $theme->setTitle('Admin iNewGen :: Quotes');
         $theme->setDescription('Quotes description');
         $theme->share('user', $this->user);
 
@@ -91,7 +91,7 @@ class QuotesController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Quotes');
+        $theme->setTitle('Admin iNewGen :: Add Quotes');
         $theme->setDescription('Add Quotes description');
         $theme->share('user', $this->user);
 
@@ -156,7 +156,7 @@ class QuotesController extends BaseController
         $data['id'] = $id;
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Quotes');
+        $theme->setTitle('Admin iNewGen :: Edit Quotes');
         $theme->setDescription('Edit Quotes description');
         $theme->share('user', $this->user);
 

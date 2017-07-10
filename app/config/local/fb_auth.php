@@ -1,6 +1,6 @@
 <?php
 
-// SiamiTs.dev
+// iNewGen.dev
 return array(
     "base_url" => "http://admins.inewgen.loc/fbauth/auth",
     "providers" => array(

@@ -13,7 +13,7 @@ class UsersController extends BaseController
     public function login()
     {
         $theme = Theme::uses('default')->layout('default2');
-        $theme->setTitle('Admin SiamiTs :: Login');
+        $theme->setTitle('Admin iNewGen :: Login');
         $theme->setDescription('Login description');
         $theme->setClassbody('login-page');
         $theme->share('user', $this->user);
@@ -100,7 +100,7 @@ class UsersController extends BaseController
         }
 
         $theme = Theme::uses('default')->layout('default2');
-        $theme->setTitle('Admin SiamiTs :: Register');
+        $theme->setTitle('Admin iNewGen :: Register');
         $theme->setDescription('Register description');
         $theme->setClassbody('login-page');
         //$theme->share('user', $this->user);
@@ -184,7 +184,7 @@ class UsersController extends BaseController
 
         // Send email
         $active     = array_get($results, 'active', '');
-        $subject    = 'Welcome New Members to SiamiTs.com!';
+        $subject    = 'Welcome New Members to iNewGen.com!';
         $from       = 'no-reply@siamits.com';
         $to         = $email;
         $name       = $name;
@@ -206,7 +206,7 @@ class UsersController extends BaseController
         );
 
         $sendmail = Mail::send('emails.register', $data, function ($message) use ($user) {
-            $message->from($user['from'], 'SiamiTs.com');
+            $message->from($user['from'], 'iNewGen.com');
             $message->to($user['email'], $user['name'])->subject($user['subject']);
         });
 
@@ -216,7 +216,7 @@ class UsersController extends BaseController
     public function profile()
     {
         $theme = Theme::uses('default')->layout('default2');
-        $theme->setTitle('Admin SiamiTs :: Profile');
+        $theme->setTitle('Admin iNewGen :: Profile');
         $theme->setDescription('Profile description');
         $theme->setClassbody('login-page');
         $theme->share('user', $this->user);
@@ -324,7 +324,7 @@ class UsersController extends BaseController
     public function password()
     {
         $theme = Theme::uses('default')->layout('default2');
-        $theme->setTitle('Admin SiamiTs :: Edit password');
+        $theme->setTitle('Admin iNewGen :: Edit password');
         $theme->setDescription('Edit password description');
         $theme->setClassbody('login-page');
         $theme->share('user', $this->user);
@@ -456,7 +456,7 @@ class UsersController extends BaseController
     {
         $data = Input::all();
         $theme = Theme::uses('default')->layout('default2');
-        $theme->setTitle('Admin SiamiTs :: Login');
+        $theme->setTitle('Admin iNewGen :: Login');
         $theme->setDescription('Login description');
         $theme->setClassbody('login-page');
 
@@ -558,7 +558,7 @@ class UsersController extends BaseController
         }
 
         // Send email
-        $subject    = 'Welcome New Members to SiamiTs.com!';
+        $subject    = 'Welcome New Members to iNewGen.com!';
         $from       = 'no-reply@siamits.com';
         $to         = $email;
         $name       = array_get($results, 'name', '');
@@ -580,7 +580,7 @@ class UsersController extends BaseController
         );
 
         $sendmail = Mail::send('emails.register', $data, function ($message) use ($user) {
-            $message->from($user['from'], 'SiamiTs.com');
+            $message->from($user['from'], 'iNewGen.com');
             $message->to($user['email'], $user['name'])->subject($user['subject']);
         });
 
@@ -595,7 +595,7 @@ class UsersController extends BaseController
         }
 
         $theme = Theme::uses('default')->layout('default2');
-        $theme->setTitle('Admin SiamiTs :: Forgot Password');
+        $theme->setTitle('Admin iNewGen :: Forgot Password');
         $theme->setDescription('Forgot Password description');
         $theme->setClassbody('login-page');
         //$theme->share('user', $this->user);
@@ -667,7 +667,7 @@ class UsersController extends BaseController
         }
 
         // Send email
-        $subject    = 'Reset password for SiamiTs.com member!';
+        $subject    = 'Reset password for iNewGen.com member!';
         $from       = 'no-reply@siamits.com';
         $to         = $email;
         $verify_url = URL::to('forgot/password').'?email='.$email.'&token='.$active;
@@ -688,7 +688,7 @@ class UsersController extends BaseController
         );
 
         $sendmail = Mail::send('emails.register', $data, function ($message) use ($user) {
-            $message->from($user['from'], 'SiamiTs.com');
+            $message->from($user['from'], 'iNewGen.com');
             $message->to($user['email'], $user['name'])->subject($user['subject']);
         });
 
@@ -700,7 +700,7 @@ class UsersController extends BaseController
     {
         $data = Input::all();
         $theme = Theme::uses('default')->layout('default2');
-        $theme->setTitle('Admin SiamiTs :: Reset password');
+        $theme->setTitle('Admin iNewGen :: Reset password');
         $theme->setDescription('Reset password description');
         $theme->setClassbody('login-page');
         // $theme->share('user', $this->user);

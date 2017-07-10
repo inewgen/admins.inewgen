@@ -22,7 +22,7 @@ class LayoutsController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Layouts');
+        $theme->setTitle('Admin iNewGen :: Layouts');
         $theme->setDescription('Layouts description');
         $theme->share('user', $this->user);
 
@@ -88,7 +88,7 @@ class LayoutsController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Layouts');
+        $theme->setTitle('Admin iNewGen :: Add Layouts');
         $theme->setDescription('Add Layouts description');
         $theme->share('user', $this->user);
 
@@ -151,7 +151,7 @@ class LayoutsController extends BaseController
         $data['id'] = $id;
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Layouts');
+        $theme->setTitle('Admin iNewGen :: Edit Layouts');
         $theme->setDescription('Edit Layouts description');
         $theme->share('user', $this->user);
 

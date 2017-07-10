@@ -20,7 +20,7 @@ class MembersController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Members');
+        $theme->setTitle('Admin iNewGen :: Members');
         $theme->setDescription('Members description');
         $theme->share('user', $this->user);
 
@@ -93,7 +93,7 @@ class MembersController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add members');
+        $theme->setTitle('Admin iNewGen :: Add members');
         $theme->setDescription('Add members description');
         $theme->share('user', $this->user);
 
@@ -209,7 +209,7 @@ class MembersController extends BaseController
         }
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit members');
+        $theme->setTitle('Admin iNewGen :: Edit members');
         $theme->setDescription('Edit members description');
         $theme->share('user', $this->user);
 

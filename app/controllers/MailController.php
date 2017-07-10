@@ -8,7 +8,7 @@ class MailController extends BaseController
         // $from = 'no-reply@siamits.com';
         // $from = 'postmaster@siamits.com';
 
-        $subject = 'Welcome New Members to SiamiTs.com!';
+        $subject = 'Welcome New Members to iNewGen.com!';
         $from = 'no-reply@siamits.com';
         $to   = 'suraches2010@gmail.com';
         $name = 'Suraches See';
@@ -28,7 +28,7 @@ class MailController extends BaseController
         );
 
         $sendmail = Mail::send('emails.register', $data, function ($message) use ($user) {
-            $message->from($user['from'], 'SiamiTs.com');
+            $message->from($user['from'], 'iNewGen.com');
             $message->to($user['email'], $user['name'])->subject($user['subject']);
         });
 

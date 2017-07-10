@@ -22,7 +22,7 @@ class CategoriesController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Category');
+        $theme->setTitle('Admin iNewGen :: Category');
         $theme->setDescription('Category description');
         $theme->share('user', $this->user);
 
@@ -91,7 +91,7 @@ class CategoriesController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Category');
+        $theme->setTitle('Admin iNewGen :: Add Category');
         $theme->setDescription('Add Category description');
         $theme->share('user', $this->user);
 
@@ -156,7 +156,7 @@ class CategoriesController extends BaseController
         $data['id'] = $id;
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Category');
+        $theme->setTitle('Admin iNewGen :: Edit Category');
         $theme->setDescription('Edit Category description');
         $theme->share('user', $this->user);
 

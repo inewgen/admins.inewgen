@@ -22,7 +22,7 @@ class CommentsController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Comments');
+        $theme->setTitle('Admin iNewGen :: Comments');
         $theme->setDescription('Comments description');
         $theme->share('user', $this->user);
 
@@ -94,7 +94,7 @@ class CommentsController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Blockwords Comments');
+        $theme->setTitle('Admin iNewGen :: Blockwords Comments');
         $theme->setDescription('Blockwords Comments description');
         $theme->share('user', $this->user);
 
@@ -182,7 +182,7 @@ class CommentsController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Comments');
+        $theme->setTitle('Admin iNewGen :: Add Comments');
         $theme->setDescription('Add Comments description');
         $theme->share('user', $this->user);
 
@@ -254,7 +254,7 @@ class CommentsController extends BaseController
         $data['id'] = $id;
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Comments');
+        $theme->setTitle('Admin iNewGen :: Edit Comments');
         $theme->setDescription('Edit Comments description');
         $theme->share('user', $this->user);
 

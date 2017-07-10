@@ -16,7 +16,7 @@ class DashboardController extends BaseController
     public function index()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Home');
+        $theme->setTitle('Admin iNewGen :: Home');
         $theme->setDescription('Home description');
         $theme->share('user', $this->user);
         

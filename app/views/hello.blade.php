@@ -29,7 +29,7 @@
 </head>
 <body>
 	<div class="welcome">
-		<a href="{{$web_url}}" title="SiamiTs"><img src="{{$web_image}}" alt="SiamiTs"></a>
+		<a href="{{$web_url}}" title="iNewGen"><img src="{{$web_image}}" alt="iNewGen"></a>
 		<br/>
 		@if(Session::has('message'))
 			<p>{{Session::get('message')}}</p>

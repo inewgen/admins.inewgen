@@ -22,7 +22,7 @@ class ContactsController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Contacts');
+        $theme->setTitle('Admin iNewGen :: Contacts');
         $theme->setDescription('Contacts description');
         $theme->share('user', $this->user);
 
@@ -110,7 +110,7 @@ class ContactsController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Contacts');
+        $theme->setTitle('Admin iNewGen :: Add Contacts');
         $theme->setDescription('Add Contacts description');
         $theme->share('user', $this->user);
 
@@ -182,7 +182,7 @@ class ContactsController extends BaseController
         $data['id'] = $id;
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Contacts');
+        $theme->setTitle('Admin iNewGen :: Edit Contacts');
         $theme->setDescription('Edit Contacts description');
         $theme->share('user', $this->user);
 

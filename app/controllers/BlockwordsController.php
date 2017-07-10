@@ -22,7 +22,7 @@ class BlockwordsController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Blockwords');
+        $theme->setTitle('Admin iNewGen :: Blockwords');
         $theme->setDescription('Blockwords description');
         $theme->share('user', $this->user);
 
@@ -86,7 +86,7 @@ class BlockwordsController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Blockwords');
+        $theme->setTitle('Admin iNewGen :: Add Blockwords');
         $theme->setDescription('Add Blockwords description');
         $theme->share('user', $this->user);
 
@@ -148,7 +148,7 @@ class BlockwordsController extends BaseController
         $data['id'] = $id;
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Blockwords');
+        $theme->setTitle('Admin iNewGen :: Edit Blockwords');
         $theme->setDescription('Edit Blockwords description');
         $theme->share('user', $this->user);
 

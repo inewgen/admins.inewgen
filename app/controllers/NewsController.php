@@ -30,7 +30,7 @@ class NewsController extends BaseController
         // }
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: News');
+        $theme->setTitle('Admin iNewGen :: News');
         $theme->setDescription('News description');
         $theme->share('user', $this->user);
 
@@ -162,7 +162,7 @@ class NewsController extends BaseController
         }
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add News');
+        $theme->setTitle('Admin iNewGen :: Add News');
         $theme->setDescription('Add News description');
         $theme->share('user', $this->user);
 
@@ -302,7 +302,7 @@ class NewsController extends BaseController
 
         $client = new Client(Config::get('url.inewgen-api'));
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit News');
+        $theme->setTitle('Admin iNewGen :: Edit News');
         $theme->setDescription('Edit News description');
         $theme->share('user', $this->user);
 

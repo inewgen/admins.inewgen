@@ -22,7 +22,7 @@ class BannersController extends BaseController
         $data = Input::all();
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Banners');
+        $theme->setTitle('Admin iNewGen :: Banners');
         $theme->setDescription('Banners description');
         $theme->share('user', $this->user);
 
@@ -96,7 +96,7 @@ class BannersController extends BaseController
     public function getAdd()
     {
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Banners');
+        $theme->setTitle('Admin iNewGen :: Add Banners');
         $theme->setDescription('Add Banners description');
         $theme->share('user', $this->user);
 
@@ -173,7 +173,7 @@ class BannersController extends BaseController
         $data['id'] = $id;
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Banners');
+        $theme->setTitle('Admin iNewGen :: Edit Banners');
         $theme->setDescription('Edit Banners description');
         $theme->share('user', $this->user);
 

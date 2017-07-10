@@ -23,7 +23,7 @@ class PagesController extends BaseController
         }
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Pages');
+        $theme->setTitle('Admin iNewGen :: Pages');
         $theme->setDescription('Pages description');
         $theme->share('user', $this->user);
 
@@ -154,7 +154,7 @@ class PagesController extends BaseController
         }
 
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Add Pages');
+        $theme->setTitle('Admin iNewGen :: Add Pages');
         $theme->setDescription('Add Pages description');
         $theme->share('user', $this->user);
 
@@ -294,7 +294,7 @@ class PagesController extends BaseController
 
         $client = new Client(Config::get('url.inewgen-api'));
         $theme = Theme::uses('default')->layout('adminlte2');
-        $theme->setTitle('Admin SiamiTs :: Edit Pages');
+        $theme->setTitle('Admin iNewGen :: Edit Pages');
         $theme->setDescription('Edit Pages description');
         $theme->share('user', $this->user);
 
