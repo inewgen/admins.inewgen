@@ -8,7 +8,7 @@
         <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="border-bottom:#01ac34 solid 1px;padding-bottom:15px">
             <tbody>
                 <tr>
-                    <td><img src="http://res.inewgen.com/img/default/siamits_logo/png/140/40" class="CToWUd"></td>
+                    <td><img src="http://res.inewgen.com/img/default/inewgen_logo_full/png/140/40" class="CToWUd"></td>
                 </tr>
                 <tr>
                     <td align="left" style="color:#333;font-family:Thonburi,Tahoma;vertical-align:bottom">

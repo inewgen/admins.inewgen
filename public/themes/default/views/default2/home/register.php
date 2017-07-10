@@ -1,6 +1,6 @@
 <div class="register-box">
     <div class="register-logo">
-        <a href="<?php echo URL::to('/');?>"><img src="<?php echo URL::to('public/themes/adminlte2');?>/images/siamits_logo_140x40.png"/></a>
+        <a href="<?php echo URL::to('/');?>"><img src="<?php echo URL::to('public/themes/adminlte2');?>/images/inewgen_logo_full_140x40.png"/></a>
     </div>
 
     <div class="register-box-body">
