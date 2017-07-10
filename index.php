@@ -7,9 +7,9 @@ $envMapping = [
     'admins.inewgen.com' => 'com',
     'www.inewgen.com'    => 'com',
 
-    'apis.inewgen.dev'   => 'dev',
-    'admins.inewgen.dev' => 'dev',
-    'www.inewgen.dev'    => 'dev',
+    'apis.inewgen.loc'   => 'dev',
+    'admins.inewgen.loc' => 'dev',
+    'www.inewgen.loc'    => 'dev',
 ];
 
 $env = isset($_SERVER['HTTP_HOST']) && isset($envMapping[$_SERVER['HTTP_HOST']])

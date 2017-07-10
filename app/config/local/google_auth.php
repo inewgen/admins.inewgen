@@ -1,7 +1,7 @@
 <?php
     
 return array(
-    "base_url" => "http://admins.inewgen.dev/gauth/auth",
+    "base_url" => "http://admins.inewgen.loc/gauth/auth",
     "providers" => array(
         "Google" => array(
             "enabled" => true,
