@@ -5,7 +5,7 @@
         <span class="logo-mini"><b><font color="#01ac34">S</font>i<font color="#01ac34">T</font></b></span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"> 
-            <img alt="Siamits" src="<?php echo getLogo(140, 40);?>">
+            <img alt="Siamits" src="<?php echo Config::get("url.inewgen-res");?>/img/default/inewgen_logo_full2/png/140/40/logo.jpg">
         </span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
